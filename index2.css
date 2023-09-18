@@ -1,0 +1,181 @@
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    position: relative;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/010/008/086/non_2x/background-dimension-3d-graphic-message-board-for-text-and-message-design-line-shadow-for-modern-web-design-free-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.cnt{
+    text-align: center;
+    width: 500px;
+}
+.cnt p{
+    padding-bottom: 10px;
+}
+.product h1{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.content .cart{
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 250px;
+    text-align: center;
+    padding: 15px;
+    min-height: 350px;
+}
+.content .cart .img{
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+
+}
+.cart img{
+    width: 150px;
+}
+.content .cart .img span{
+    position:absolute;
+    padding:10px;
+    background-color: crimson;
+    color: white;
+    top: 0;
+    left: 0;
+}
+.content .cart input{
+    width: 100%;
+    margin-bottom: 10px;
+    height: 30px;
+    border: 1px solid black;
+    padding-inline: 10px;
+}
+.content .cart button{
+    width: 150px;
+    height: 30px;
+    border-radius: 7px;
+    font-size: 15px;
+}
+.content .cart .title{
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.btt{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.btt button{
+    height: 40px;
+    padding-inline: 20px;
+    font-size: 20px;
+    border-radius: 6px;
+    border: none;
+    background-color: crimson;
+    color: white;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+.btt button:hover{
+    background-color: gray;
+}
+.cont{
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+.conte{
+    padding-inline: 20px;
+}
+.conte h1{
+    padding-bottom: 10px;
+    font-size: 30px;
+    font-weight: 900;
+}
+.conte p{
+    text-align: justify;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.question{
+    padding: 50px;
+    background-color: rgb(41, 41, 41);
+    margin-bottom: 40px;
+}
+.content1{
+    text-align: center;
+    margin: auto;
+    max-width: 600px;
+}
+.content1 h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+.content1 p{
+    color: rgb(208, 205, 205);
+    margin-bottom: 10px;
+}
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    column-gap: 20px;
+}
+.col1{
+    display:flex ;
+    flex-direction: column;
+}
+.col1 header{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.col1 span{
+    margin-left: 40px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+.col1 a{
+    text-decoration: none;
+    color: black;
+    padding-left: 8px;
+    transition: all 0.3s ease;
+}
+.col1 i{
+    color: blue;
+}
+.col1  a:hover{
+    text-decoration:solid;
+    margin: 10px;
+    color: blue;
+}
+.copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    align-items: center;
+    border-top: 1px solid gray ;
+}
+.copyright .h1{
+    color: blue;
+    font-size: 20px;
+}
