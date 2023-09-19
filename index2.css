@@ -1,12 +1,13 @@
 .home{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     height: 80vh;
     position: relative;
-    background-image: url(https://static.vecteezy.com/system/resources/previews/010/008/086/non_2x/background-dimension-3d-graphic-message-board-for-text-and-message-design-line-shadow-for-modern-web-design-free-vector.jpg);
+    background-image: url("https://media.istockphoto.com/id/1341408852/video/colored-smoke-on-a-dark-background-blue-and-red-light-with-smoke.jpg?s=640x640&k=20&c=v2DQUY8IVbli_6FH_9KAs6YWRXlDdYiBJHfp7JFh7NY=");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 .cnt{
     text-align: center;
@@ -41,6 +42,7 @@
     text-align: center;
     position: relative;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     height: 250px;
@@ -162,9 +164,9 @@
 .col1 i{
     color: blue;
 }
-.col1  a:hover{
+.contact .col1 span:hover{
     text-decoration:solid;
-    margin: 10px;
+    margin-right: 5px;
     color: blue;
 }
 .copyright{
@@ -179,3 +181,30 @@
     color: blue;
     font-size: 20px;
 }
+::-webkit-scrollbar{
+    width:30px;
+    background:grey;
+}
+
+::-webkit-scrollbar-thumb{
+    background:blue;
+    border-radius:30px;
+    transition: all 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: darkblue;
+
+}
+@media only screen and (max-width: 1440px){
+    .cont{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+    .cont img {
+        width: 100%;
+    }
+} 

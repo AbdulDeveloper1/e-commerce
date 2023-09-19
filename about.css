@@ -1,10 +1,11 @@
 
 .home{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     background-image: url(https://wallpapers.com/images/hd/simple-zoom-background-16je89hqi88u3k1e.jpg);
-    background-size: 100%;
+    background-size: cover;
     height: 70vh;
 }
 .content h1{
@@ -122,6 +123,7 @@
 .boxess .i11{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     gap: 10px;
     position: absolute;
     top:10px;
@@ -160,6 +162,7 @@
 .col1{
     display:flex ;
     flex-direction: column;
+  
 }
 .col1 header{
     text-transform: uppercase;
@@ -175,19 +178,24 @@
 .col1 a{
     text-decoration: none;
     color: black;
+}
+.col1 span{
+    text-decoration: none;
+    color: black;
     padding-left: 8px;
     transition: all 0.3s ease;
 }
 .col1 i{
     color: blue;
 }
-.col1  a:hover{
+.col1 span:hover{
     text-decoration:solid;
-    margin: 10px;
+     margin-left: 2px;
     color: blue;
 }
 .copyright{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     height: 70px;
@@ -214,3 +222,16 @@
     background: darkblue;
 
 }
+@media only screen and (max-width: 1440px){
+    .cont{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+    .cont img {
+        width: 100%;
+    }
+} 
+    
